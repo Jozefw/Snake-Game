@@ -1,1 +1,28 @@
-style.css
+#container {
+	width:400px;
+	height: 400px;
+	padding: 0px;
+	margin: 0px;
+	border: 10px solid black;
+}
+
+/*the cells for the background*/
+.boardCell{
+	background: #16a085;
+	width: 20px;
+	height: 20px;
+	float:left;
+}
+
+/*the cells for the snake color*/
+.snakeCell{
+	background: #e67e22;
+
+}
+
+/*the food the snake eats*/
+.appleCell{
+	background-image: url('appl.png');
+	background-repeat: no-repeat;
+}
+
