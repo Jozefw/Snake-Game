@@ -1,23 +1,33 @@
-Notes for Snake Game
+connect files css & javasctipt to html
 
+1.
+style the board:
+	individual cells (h,w,bkgcolor)
+style the snake (bkgcolor)
 
-game consists of 40x40 board
+style the apple(bkgrimage, bkrgnd no repeat)
 
-snake direction is 3 ways, right, left, forward. Backward can be achieved only by circling around, nor diagonal moves either.
+2.
+create main container for board
+(width 400 hieght 400, padding 0 margin 0 border 10 solid color)
 
-states:
+3.
+make a jquery line to clear the board div main
 
-snake moves
+4. 
+make a double loop (row and cell) of 20 to fill the board
+append to div main a (div class with row and cell)
+id=c_row_colum
 
-snake grows
+5.
+add class for snake to 3 columns 
 
-collision (wall or self)
+6.
+make a function to generate food 
+r1 and ci math.floor(math.random()*19 +1)
 
-random fruit generation
+7.
+make snake array with the initial 3 spaces for the snake(3_10,2_10,1_10)
 
-START OFF
-
-1.make container to hold board (add style)
-2.append divs (add styling so it shows up)
-
+8.
 

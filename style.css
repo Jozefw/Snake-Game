@@ -1,3 +1,4 @@
+/*overall board container*/
 #container {
 	width:400px;
 	height: 400px;
@@ -7,6 +8,7 @@
 }
 
 /*the cells for the background*/
+
 .boardCell{
 	background: #16a085;
 	width: 20px;
@@ -17,7 +19,6 @@
 /*the cells for the snake color*/
 .snakeCell{
 	background: #e67e22;
-
 }
 
 /*the food the snake eats*/
